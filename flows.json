@@ -1,0 +1,33 @@
+[
+    {
+        "id": "53756ef7.f0f2d",
+        "label": "new package",
+        "type": "tab"
+    },
+    {
+        "id": "e230f3c3.a3d36",
+        "type": "twitter",
+        "z": "53756ef7.f0f2d",
+        "name": "",
+        "subtype": "twitterHashTagStream",
+        "x": 234.5,
+        "y": 299,
+        "wires": [
+            [
+                "fff463fe.33d46"
+            ]
+        ]
+    },
+    {
+        "id": "fff463fe.33d46",
+        "type": "debugger",
+        "z": "53756ef7.f0f2d",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 368,
+        "y": 300,
+        "wires": []
+    }
+]
